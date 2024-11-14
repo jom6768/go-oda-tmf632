@@ -13,7 +13,7 @@ import (
 	"context"
 	"testing"
 
-	openapiclient "github.com/jom6768/go_oda_tmf632"
+	openapiclient "github.com/jom6768/go-oda-tmf632/api"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

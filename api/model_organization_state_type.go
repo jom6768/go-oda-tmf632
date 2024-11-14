@@ -20,8 +20,8 @@ type OrganizationStateType string
 
 // List of OrganizationStateType
 const (
-	INITIALIZED OrganizationStateType = "initialized"
-	VALIDATED OrganizationStateType = "validated"
+	INITIALIZED1 OrganizationStateType = "initialized"
+	VALIDATED1 OrganizationStateType = "validated"
 	CLOSED OrganizationStateType = "closed"
 )
 
