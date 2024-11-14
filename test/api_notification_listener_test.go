@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/jom6768/go_oda_tmf632"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_NotificationListenerAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService IndividualAttributeValueChangeEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.IndividualAttributeValueChangeEvent(context.Background()).Execute()
 
@@ -35,7 +36,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService IndividualCreateEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.IndividualCreateEvent(context.Background()).Execute()
 
@@ -46,7 +47,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService IndividualDeleteEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.IndividualDeleteEvent(context.Background()).Execute()
 
@@ -57,7 +58,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService IndividualStateChangeEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.IndividualStateChangeEvent(context.Background()).Execute()
 
@@ -68,7 +69,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService OrganizationAttributeValueChangeEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.OrganizationAttributeValueChangeEvent(context.Background()).Execute()
 
@@ -79,7 +80,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService OrganizationCreateEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.OrganizationCreateEvent(context.Background()).Execute()
 
@@ -90,7 +91,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService OrganizationDeleteEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.OrganizationDeleteEvent(context.Background()).Execute()
 
@@ -101,7 +102,7 @@ func Test_openapi_NotificationListenerAPIService(t *testing.T) {
 
 	t.Run("Test NotificationListenerAPIService OrganizationStateChangeEvent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		httpRes, err := apiClient.NotificationListenerAPI.OrganizationStateChangeEvent(context.Background()).Execute()
 

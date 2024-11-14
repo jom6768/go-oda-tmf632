@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/jom6768/go_oda_tmf632"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_EventsSubscriptionAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_EventsSubscriptionAPIService(t *testing.T) {
 
 	t.Run("Test EventsSubscriptionAPIService CreateHub", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.EventsSubscriptionAPI.CreateHub(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_openapi_EventsSubscriptionAPIService(t *testing.T) {
 
 	t.Run("Test EventsSubscriptionAPIService HubDelete", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 

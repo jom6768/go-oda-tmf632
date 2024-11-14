@@ -11,10 +11,11 @@ package openapi
 
 import (
 	"context"
+	"testing"
+
+	openapiclient "github.com/jom6768/go_oda_tmf632"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_openapi_OrganizationAPIService(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_openapi_OrganizationAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationAPIService CreateOrganization", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OrganizationAPI.CreateOrganization(context.Background()).Execute()
 
@@ -36,7 +37,7 @@ func Test_openapi_OrganizationAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationAPIService DeleteOrganization", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -49,7 +50,7 @@ func Test_openapi_OrganizationAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationAPIService ListOrganization", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.OrganizationAPI.ListOrganization(context.Background()).Execute()
 
@@ -61,7 +62,7 @@ func Test_openapi_OrganizationAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationAPIService PatchOrganization", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
@@ -75,7 +76,7 @@ func Test_openapi_OrganizationAPIService(t *testing.T) {
 
 	t.Run("Test OrganizationAPIService RetrieveOrganization", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var id string
 
